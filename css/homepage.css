@@ -1,8 +1,32 @@
- body {
+﻿body {
 	background-color: rgb(244, 242, 243);
-         cursor: url();
+         cursor: url(./pictures/cursor_closed.png);
+ }
+div.navLeiste {
+	align: center;
+}
+.navLeiste ul {
+  	list-style-type: none
+         position: fixed;
+         list-style-position: inside;
+         margin: -10em 0;
+         border: 2px solid black;
+         position: fixed;
  }
 
- tr.navLeiste {
-	background-color: rgb(244, 231, 0);
+.navLeiste li {
+  	display: inline;
+  	margin: 0 1.5em;
+}
+
+.content {
+         overflow: auto;
+         margin: 200px 1em;
+         padding: 0 2em;     
+ }
+ p.content {}
+
+#home_button {
+  	height: 100px;
+    width: 100px;
  }
