@@ -5,7 +5,7 @@
 	padding: 0;
  }
  
-.navLeiste {
+.nav_leiste {
 	position: fixed;
 	height: 100px;
 	width: 90%;
@@ -13,7 +13,7 @@
 	top: 2%;
  }
 
-.navLeiste a {
+.nav_leiste a {
   	display: block;
   	height: 100%;
   	width: 25%;
