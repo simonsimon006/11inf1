@@ -1,30 +1,53 @@
 @import url("general_settings.css");
- 
+
 .nav_leiste {
 	position: fixed;
 	height: 100px;
-	width: 90%;
-	left: 5%;
+	width: 40%;
+	left: 30%;
 	top: 2%;
  }
 
 .nav_leiste a {
-  	display: block;
+  	float: left;
   	height: 100%;
   	width: 25%;
-  	float: left;
-  	border: 1px solid grey;
   	background-color: lightgreen;
-  	border: 0.1px solid blue;
 }
 
 .content {
 	overflow: auto;
-	position: absolute;
-	padding: 110px 10px;
+	position: static;
+	padding: 4% 0;
 	font-family: Roboto, sans-serif;
 	text-align: center;
+	margin: 3% 30% auto 30%;
  }
+.content  h1 {
+	font-size: 1em;
+}
+
+.content textarea {
+	width: 20em;
+	height: 15em;
+	border: 1px dotted lightgrey;
+	border-radius: 5px;
+	font-family: inherit;
+}
+
+.content fieldset {
+	width: 30%;
+	height: auto;
+	margin: 0 auto;
+	border: none;
+}
+
+.content form button {
+	width: 25%;
+	height: 5%;
+	border-radius: 5px;
+	box-shadow: 3px 4px rgb(240, 240, 240);
+}
 
 #home_button {
 	height: 100px;
