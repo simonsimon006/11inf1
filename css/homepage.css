@@ -1,9 +1,4 @@
-﻿body {
-	background-color: rgb(244, 242, 243);
-	cursor: url(./pictures/cursor_closed.png);
-	margin: 0;
-	padding: 0;
- }
+@import url("general_settings.css");
  
 .nav_leiste {
 	position: fixed;
@@ -27,6 +22,7 @@
 	overflow: auto;
 	position: absolute;
 	padding: 110px 10px;
+	font-family: Roboto, sans-serif;
 	text-align: center;
  }
 

@@ -1,0 +1,15 @@
+@import url("general_settings.css");
+}
+
+#sushi_bild {
+	float: left;
+	width: 100px;
+	height: 100px;	
+}
+
+#steckbrief {
+	float: right;
+}
+
+#descr {
+}
