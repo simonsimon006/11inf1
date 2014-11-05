@@ -1,6 +1,6 @@
 @import url("general_settings.css");
 
-.nav_leiste {
+nav.nav_leiste {
 	position: fixed;
 	height: 100px;
 	width: 40%;
@@ -9,19 +9,25 @@
  }
 
 .nav_leiste a {
-  	float: left;
-  	height: 100%;
-  	width: 25%;
-  	background-color: lightgreen;
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 23%;
+	cursor: inherit;
+	padding: 0 1% ;
+}
+
+a:hover {
+	cursor: url(../pictures/cursor_open.png);
 }
 
 .content {
 	overflow: auto;
 	position: static;
 	padding: 4% 0;
-	font-family: Roboto, sans-serif;
 	text-align: center;
-	margin: 3% 30% auto 30%;
+	margin: 9% 30% auto 30%;
  }
 .content  h1 {
 	font-size: 1em;
@@ -49,7 +55,30 @@
 	box-shadow: 3px 4px rgb(240, 240, 240);
 }
 
-#home_button {
-	height: 100px;
-	width: 100px;
- }
+img.buttons {
+	position: relative;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	z-index: 3;
+}
+
+img.buttons_hover {
+	position: relative;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	z-index: 2;
+	visibility: hidden;
+}
+
+img.buttons:hover {
+	position: relative;
+	box-sizing: border-box;
+	width: 75%;
+	height: 75%;
+	padding: 0;
+	z-index: 3;
+}

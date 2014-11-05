@@ -24,3 +24,8 @@
 		visibility: visible;
 	 }
 }
+
+div.workaround {
+	box-sizing: border-box;
+	margin: 5%;
+}
