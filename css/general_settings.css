@@ -25,6 +25,15 @@
 	 }
 }
 
+@-webkit-keyframe shining {
+	from {
+		visibility: hidden;
+	}
+	to {
+		visibility: visible;
+	 }
+}
+
 div.workaround {
 	box-sizing: border-box;
 	position: absolute;
