@@ -1,22 +1,33 @@
 @import url("general_settings.css");
 
 td {
-	box-sizing: border-box;
+    box-sizing: border-box;
 	height: 10em;
 	width: 10em;
-	margin: 5%;
+    margin: 0.5em;
 }
 
 td img {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 img:hover {
-	border: 2px solid lightgrey;
+	display: table;
+    box-sizing: border-box;
+    border: 4px dotted lightgrey;
+    border-radius: 1px;
+    width: 100%;
+    height: 100%;
 }
 
 img:active {
-	width: 90%;
-	height: 90%;
+	margin: 1em;
+}
+
+table {
+    width: 33em;
+    height: 33em;
+    border-spacing: 0.1em;
+    border-collapse: separate;
 }
