@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?> <!-- evntl. auf utf-8 umstellen -->
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
@@ -8,15 +8,23 @@
 		<meta name="Autoren" content="Flora Lafos; Jonas Hoffmann; Simon Grunwald"/>
 		<meta name="robots" content="all"/>	<!-- eig. überflüssig, aber der Ordnung halber -->
 		<link rel="stylesheet" type="text/css" href="../css/overview.css"/>
-		<link rel="shortcut icon" type="image/x-icon" href="pictures/icon.png"/>
+		<link rel="shortcut icon" type="image/x-icon" href="../pictures/icon.png"/>
 	</head>
 	<body>
 		<div class="workaround">
-			<p id="infotext">
-				Hier findet ihr Informationen über einzelene Sushi Arten. Einfach auf das entsprechende Bild klicken.
-			</p>
-			<a src="tabel_site.xhtml" target="overview">Zurück zur Übersicht</a>
-				<iframe src="sushi_grid.xhtml" name="overview"/>
+			<nav class="nav_leiste">
+				<a href="../homepage.xhtml"><img class="buttons" src="../pictures/button_1/sushi_pic_1.png" alt="Eine Sushi-Rolle, home-button"/><img class="buttons_hover" src="../pictures/button_1/sushi_pic_1_jig1.png" alt="Eine Sushi-Rolle, home-button"/></a>
+				<a href="../xhtml/allgemein.xhtml"><img class="buttons" src="../pictures/button_2/sushi_pic_2.png" alt="Allgemein"/><img class="buttons_hover" src="../pictures/button_2/sushi_pic_2_jig2.png" alt="Allgemein"/></a>
+				<a href="../xhtml/overview.xhtml"><img class="buttons" id="Übersicht" src="../pictures/button_3/sushi_pic_3.png" alt="Übersicht"/><img class="buttons_hover" src="../pictures/button_3/sushi_pic_3_jig2.png" alt="Eine Sushi-Rolle, home-button"/></a>
+				<a href="../xhtml/impressum.xhtml"><img class="buttons" id="Übersicht" src="../pictures/button_4/sushi_pic_4.png" alt="Übersicht"/><img class="buttons_hover" src="../pictures/button_4/sushi_pic_4_click.png" alt="Eine Sushi-Rolle, home-button"/></a>
+			</nav>
+			<div class="content">
+				<p id="infotext">
+					Hier findet ihr Informationen über einzelene Sushi Arten. Einfach auf das entsprechende Bild klicken.
+				</p>
+				<a href="table_site.xhtml" target="overview">Zurück zur Übersicht</a>
+				<iframe src="table_site.xhtml" name="overview"/>
+			</div>
 		</div>
 	</body>
 </html>

@@ -1,0 +1,13 @@
+@import url("general_settings.css");
+
+td {
+	box-sizing: border-box;
+	height: 10em;
+	width: 10em;
+	margin: auto;
+}
+
+td img {
+	width: 100%;
+	height: 100%;
+}

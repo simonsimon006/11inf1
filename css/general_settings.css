@@ -27,14 +27,16 @@
 
 div.workaround {
 	box-sizing: border-box;
-	margin: 0;
+	position: absolute;
 	cursor: url(../pictures/cursor_closed.png), auto;
+	height: 100%;
+	width: 100%;
 }
 
-nav.nav_leiste {
-	position: fixed;
-	height: 10%;
-	width: 40%;
+.nav_leiste {
+	position: relative;
+	height: 8em;
+	width: 8em;
 	left: 30%;
 	top: 2%;
  }
@@ -44,10 +46,9 @@ nav.nav_leiste {
 	position: relative;
 	float: left;
 	height: 100%;
-	width: 23%;
+	width: 100%;
 	cursor: inherit;
-	padding: 0 1% 1%;
-	border-bottom: 3px solid lightgreen;
+	margin: 0 0 10%;
 }
 
 img.buttons {
@@ -75,4 +76,15 @@ img.buttons:active {
 	z-index: 1;
 	visibility: hidden;
 }
+
+.content {
+	overflow: auto;
+	position: absolute;
+	top: 0%;
+	text-align: center;
+	margin: 0;
+	box-sizing: border-box;
+	width: 30%;
+	height: 100%;
+	left: 40%;
 

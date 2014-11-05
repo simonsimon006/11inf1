@@ -4,13 +4,7 @@ a:hover {
 	cursor: url(../pictures/cursor_open.png);
 }
 
-.content {
-	overflow: auto;
-	position: static;
-	padding: 4% 0;
-	text-align: center;
-	margin: 9% 30% auto 30%;
- }
+}
 .content  h1 {
 	font-size: 1em;
 }
