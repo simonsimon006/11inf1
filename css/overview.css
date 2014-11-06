@@ -1,26 +1,27 @@
 @import url("general_settings.css");
 
 #back {
-      display: block;
-      float: left;
+    display: block;
+    float: left;
 }
 
 iframe {
-      clear: left;
-      float: right;
-      display: block;
-      box-sizing: border-box;
-      overflow: auto;
-      height: 40em;
-      width: 100%;
-	border: none;
-      margin: 0;
+    clear: left;
+    float: right;
+    display: block;
+    box-sizing: border-box;
+    overflow: auto;
+    height: 40em;
+    width: 100%;
+    border: none;
+    margin: 0;
 }
 
 #infotext {
-      text-align: left;
+    text-align: left;
 }
 
 h1 {
-      text-align: left;
+    text-align: left;
+    width: 100%;
 }

@@ -50,8 +50,9 @@ img.buttons {
 }
 
 img.buttons:active {
-	transform: rotate(12deg);
+	transform: rotate(7deg);
     z-index: 1;
+    padding: 0.4em;
 }
 
 .content {
