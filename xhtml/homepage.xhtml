@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+	<head>
+		<title>Sushi</title>
+		<meta name="charset" content="utf-8"/>
+		<meta name="Autoren" content="Flora Lafos; Jonas Hoffmann; Simon Grunwald"/>
+		<meta name="robots" content="all"/>	<!-- eig. überflüssig, aber der Ordnung halber -->
+		<link rel="stylesheet" type="text/css" href="../css/homepage.css"/>
+      	<link rel="shortcut icon" type="image/x-icon" href="pictures/icon.png"/>
+	</head>
+
+	<body>
+	<div class="nav_leiste">
+		<a href="homepage.xhtml"><img class="buttons" src="../pictures/button_1/sushi_pic_1.png" alt="Homebutton"/><img class="buttons_hover" src="../pictures/button_1/sushi_pic_1_jig1.png" alt="Homebutton"/></a>
+		<a href="allgemein.xhtml"><img class="buttons" src="../pictures/button_2/sushi_pic_2.png" alt="Allgemein"/><img class="buttons_hover" src="../pictures/button_2/sushi_pic_2_jig2.png" alt="Allgemein"/></a>
+		<a href="overview.xhtml"><img class="buttons" src="../pictures/button_3/sushi_pic_3.png" alt="Übersicht"/><img class="buttons_hover" src="../pictures/button_3/sushi_pic_3_jig2.png" alt="Übersicht"/></a>
+		<a href="impressum.xhtml"><img class="buttons" src="../pictures/button_4/sushi_pic_4.png" alt="Übersicht"/><img class="buttons_hover" src="../pictures/button_4/sushi_pic_4_click.png" alt="Impressum"/></a>
+	</div>
+        <div class="content">
+                <h1>Herzlich Willkommen auf unserer Sushi-Seite!</h1>
+            <p>
+                Du findest hier eine Übersicht über einige Sushi-Sorten und weitere Informationen.
+                Wenn du Lust hast, kannst du hier deine persönliche Meinung über Sushi vorstellen.
+            </p>
+		<form action="php/store_opinion.php" method="post">
+			<fieldset id="meinung">
+				<label text="Meinungen:">
+	            		<textarea rows="4"  name="eintrag">Hier die Meinung</textarea>
+                  	</label>
+				<button type="button">Eintragen</button>
+                </fieldset>
+            </form>
+            <?php
+                $file=fopen("content/guestbook.txt", "r");
+                while (!feof($file)) {
+                    $buffer = fgetss($handle);
+                    echo $buffer;
+                }
+                fclose($file);
+            ?>
+        </div>
+	</body>
+</html>

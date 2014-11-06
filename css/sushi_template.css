@@ -1,22 +1,20 @@
 @import url("general_settings.css");
 
-:hover {
-    cursor: url(../pictures/cursor_closed.png), auto;
-}
-
 img:hover {
-    cursor: url(../pictures/cursor_closed.png), auto;
+      cursor: url(../pictures/cursor_closed.png), auto;
 }
 
 #sushi_bild {
 	float: left;
 	width: 100px;
 	height: 100px;
+      padding-top: 2%;
 }
 
 #steckbrief {
 	float: left;
 	margin: 0 0 5% 0;
+      padding-top: 2%;
 }
 
 #descr {
