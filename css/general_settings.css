@@ -31,9 +31,10 @@ div.workaround {
 .nav_leiste {
 	position: static;
     box-sizing: border-box;
+    float: left;
 	width: 8em;
-	margin: 5% 30%;
-	border-right: 10px solid grey;
+	margin: 5% 0 auto 30%;
+    padding-right: 9em;
  }
 
 .nav_leiste a {
@@ -43,8 +44,7 @@ div.workaround {
 	height: 8em;
 	width: 8em;
 	cursor: inherit;
-	margin: 0 0 10%;
-    border-right: 1px solid grey;
+	margin: 0 0 1em;
 }
 
 img.buttons {
@@ -77,10 +77,11 @@ img.buttons:active {
 	overflow: auto;
     box-sizing: border-box;
 	position: relative;
-	top: 0%;
 	text-align: center;
-	margin: 0 1em;
-	box-sizing: border-box;
+    margin-right: 20%;
+    margin-top: 5%;
+    border-left: 2px solid grey;
+    padding-left: 3em;
 }
 
 img:hover {

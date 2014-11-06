@@ -4,6 +4,7 @@
     display: block;
     float: left;
 }
+
 iframe {
     clear: left;
     display: block;
@@ -12,4 +13,12 @@ iframe {
 	height: 35em;
     width: 35em;
 	border: none;
+}
+
+#infotext {
+    text-align: left;
+}
+
+h1 {
+    text-align: left;
 }

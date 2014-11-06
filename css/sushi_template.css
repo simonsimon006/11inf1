@@ -1,32 +1,24 @@
 @import url("general_settings.css");
 
+:hover {
+    cursor: url(../pictures/cursor_closed.png), auto;
+}
+
+img:hover {
+    cursor: url(../pictures/cursor_closed.png), auto;
+}
+
 #sushi_bild {
 	float: left;
 	width: 100px;
 	height: 100px;
-	font: Roboto, sans-serif;
-	-webkit-animation: shining 2s;
-	animation: shining 2s;
-	-webkit-animation-delay: 0;
-	animation-delay: 0;
-	-webkit-animation-iteration-count: 1;	
-	animation-iteration-count: 1;	
 }
 
 #steckbrief {
 	float: left;
-	-webkit-animation: shining 2s;
-	animation: shining 2s;
-	-webkit-animation-delay: 1;
-	animation-delay: 1;
-	-webkit-animation-iteration-count: 1;	
-	animation-iteration-count: 1;	
 	margin: 0 0 5% 0;
 }
 
 #descr {
-	animation: shining 2s;
-	animation-delay: 2s;
-	animation-iteration-count: 1;
 	clear: left;
 }

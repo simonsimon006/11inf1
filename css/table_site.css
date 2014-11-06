@@ -8,8 +8,8 @@ td {
 }
 
 td img {
-    width: 100%;
-    height: 100%;
+    width: 10em;
+    height: 10em;
 }
 
 img:hover {
@@ -17,8 +17,8 @@ img:hover {
     box-sizing: border-box;
     border: 4px dotted lightgrey;
     border-radius: 1px;
-    width: 100%;
-    height: 100%;
+    width: 10em;
+    height: 10em;
 }
 
 img:active {
@@ -30,4 +30,5 @@ table {
     height: 33em;
     border-spacing: 0.1em;
     border-collapse: separate;
+    padding-top: 1em;
 }
