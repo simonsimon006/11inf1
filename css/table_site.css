@@ -13,12 +13,12 @@ td img {
 }
 
 img:hover {
-	display: table;
-      box-sizing: border-box;
-      border: 4px dotted lightgrey;
-      border-radius: 1px;
-      width: 10em;
-      height: 10em;
+    display: table;
+    box-sizing: border-box;
+    border: 4px dotted lightgrey;
+    border-radius: 1px;
+    width: 10em;
+    height: 10em;
 }
 
 img:active {

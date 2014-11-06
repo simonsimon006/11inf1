@@ -1,10 +1,5 @@
 @import url("general_settings.css");
 
-a:hover {
-	cursor: url(../pictures/cursor_open.png);
-}
-
-}
 .content  h1 {
 	font-size: 1em;
 	margin-top: 0;
