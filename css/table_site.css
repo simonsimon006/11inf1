@@ -22,7 +22,8 @@ img:hover {
 }
 
 img:active {
-	margin: 1em;
+	border:4px solid lightgrey;
+    border-radius: 1px;
 }
 
 table {

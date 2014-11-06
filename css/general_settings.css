@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: Roboto;
-	local: roboto;
+	local: Roboto;
 	src: url("../fonts/Roboto.eot");
 	src: url("../fonts/Roboto.eot") format("embedded-opentype"),
 		url("../fonts/Roboto.woff") format("woff");
@@ -23,7 +23,7 @@ body {
 }
 
 .nav_leiste {
-	position: static;
+	position: relative;
     box-sizing: border-box;
     float: left;
 	width: 8em;
@@ -37,7 +37,6 @@ body {
 	float: left;
 	height: 8em;
 	width: 8em;
-	cursor: inherit;
 	margin: 0 0 1em;
 }
 
