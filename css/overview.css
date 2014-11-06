@@ -7,12 +7,12 @@
 
 iframe {
     clear: left;
-    float: right;
+    float: left;
     display: block;
     box-sizing: border-box;
     overflow: auto;
     height: 40em;
-    width: 100%;
+    width: 31em;
     border: none;
     margin: 0;
 }
