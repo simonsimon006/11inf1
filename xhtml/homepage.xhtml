@@ -27,20 +27,7 @@
             Du findest hier eine Übersicht über einige Sushi-Sorten und weitere Informationen.
             Wenn du Lust hast, kannst du hier deine persönliche Meinung über Sushi vorstellen.
         </p>
-		<form action="php/store_opinion.php" method="post">
-			<fieldset id="meinung">
-	            	<textarea rows="4" cols="4" name="eintrag">Hier die Meinung</textarea>
-				<button type="button">Eintragen</button>
-                </fieldset>
-            </form>
-            <?php
-                $file=fopen("content/guestbook.txt", "r");
-                while (!feof($file)) {
-                    $buffer = fgetss($handle);
-                    echo $buffer;
-                }
-                fclose($file);
-            ?>
+		<img id="bild" src="../pictures/sushi_teller.jpg"/>
         </div>
 	</body>
 </html>
