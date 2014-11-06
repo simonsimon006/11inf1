@@ -18,14 +18,8 @@ body {
     height: 100%;
 }
 
-div.workaround {
-	box-sizing: border-box;
-	position: absolute;
-    top: 0;
-    left: 0;
-	cursor: url(../pictures/cursor_closed.png), auto;
-	height: 100%;
-	width: 100%;
+:hover {
+    cursor: url(../pictures/cursor_closed.png), auto;
 }
 
 .nav_leiste {
@@ -33,7 +27,7 @@ div.workaround {
     box-sizing: border-box;
     float: left;
 	width: 8em;
-	margin: 5% 0 auto 30%;
+	margin: 0 0 auto 30%;
     padding-right: 9em;
  }
 
